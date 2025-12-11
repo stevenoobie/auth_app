@@ -14,6 +14,7 @@ This project contains a **frontend** and a **backend** service, each with its ow
 1. Make sure the **backend** folder contains a `.env` file with the following environment variables:
 
 ```env
+for example: 
 DATABASE_URL="mongodb://root:123456789@database_mongo:27017/stock?authSource=admin"
 JWT_SECRET_ACCESS='v9F#x!8Pq2$Lm7@Tz4&Yn1*Kr5^Bw0!Q'
 JWT_SECRET_REFRESH='f93A!d7LqP@1z$X0wE4^bN2mR8#sK6uH&yT9pV5jQ*G3cZ1oD!hF7$M0tW2L@8'
@@ -48,3 +49,4 @@ docker-compose up --build
 
 That's it! Your application should now be running and accessible.
 ```
+
