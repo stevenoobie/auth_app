@@ -1,6 +1,6 @@
 services:
-  database:
-    container_name: database
+  database_mongo:
+    container_name: database_mongo
     image: mongo:6
     restart: always
     environment:
@@ -19,7 +19,7 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - database
+      - database_mongo
     env_file:
       - ./backend/.env
     volumes:
